@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
+    <div id="name"></div>
+    <h1>What is your name?</h1>
+    <textarea readonly id="dropArea"></textarea>
+    <button onclick="displayName()">Confirm name</button>
+
     
+
+    <div class="random-letter"  id="draggableDiv" draggable="true"></div>
+    <h4>&lt;- drag this letter to create name </h4>
+    <h4>Bin unwanted letters below</h4>
+    <h4>   \/</h4>
+    <div  id="dropAreaBin"><img src="trash.jpg" alt="trash can"></div>
 </body>
 </html>
