@@ -1,6 +1,11 @@
 * {
     font-family: 'Comic Sans MS', cursive;
 }
+body {
+    background-image: url("./849.png");
+background-size: 100px 200px;
+    background-repeat: repeat;
+}
 button:hover{
     margin-left:200px;
     animation-name: example;
@@ -24,8 +29,12 @@ button:hover{
       color: red ;
       user-select: none; /* Prevents the text inside the div from being selectable, making dragging easier */
   }
+  h1 {
+    background-color: green;
+  }
 h4 {
     margin-left: 200px;
+    background-color: red;
 }
   
   #dropArea {
@@ -41,4 +50,6 @@ h4 {
   
   img {
     height: 500px;
+    border-radius: 10px;
+    box-shadow: 100px 100px 100px 100px  black;
   }
